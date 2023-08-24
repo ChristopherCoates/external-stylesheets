@@ -1,0 +1,225 @@
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0 auto; /* Center the content */
+    padding: 0;
+}
+
+@media screen (min-width: 770px) {
+    .Skin #SkinContent {
+        width: 80% !important;
+    }
+} 
+
+.Skin .Buttons {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+
+/* hide Qualtrics logo */
+body .Skin #Plug a{
+   height: 0 !important;
+   padding: 0 !important;
+   overflow: hidden !important;
+   display: none !important;
+}
+
+.Skin .QuestionOuter.Matrix{ max-width: 100%; }
+
+.Skin .QuestionText{max-width: 100% !important}
+
+.Skin .ProgressBar + .NavigationBar {
+    justify-content: flex-start;
+}
+
+.Skin .ProgressBar + .NavigationBar Button {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.Skin .no-space {
+    margin-top: 2px;
+    margin-bottom:0px;
+}
+
+input[type="text"]:focus {
+    opacity: 1 !important;
+}
+
+.choice-box {
+    width: calc(30% - 20px); 
+    height: 150px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px; 
+}
+
+.choice-box.selected {
+    border-color: #57A4FF;
+}
+
+.choice-box .emoji {
+    font-size: 3rem;
+}
+
+.choice-box .caption {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1;  
+}
+
+#Q585 {display: none;}
+
+#choiceContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+.other-container {
+    align-items: flex-start;
+    padding: 10px;
+    height: auto;  /* Make it auto to accommodate the input field */
+}
+
+.other-container label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.other-input {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 1rem; /* Add to match the font size of captions */
+}
+
+.wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px; /* change as needed */
+  height: 200px; /* change as needed */
+  border-radius: 20px; /* change as needed for corner rounding */
+  background-color: #f8f9fa; /* change as needed for background color */
+}
+
+.section {
+    margin-bottom: 25px; /* Add spacing between sections */
+    margin-right: 10px;
+}
+
+.main-title {
+    font-family: Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.emoji {
+  font-size: 50px; /* change as needed for emoji size */
+}
+
+.multiple-choice-text {
+  font-family: Helvetica, sans-serif;
+  font-size: 13px; /* change as needed for text size */
+  text-align: center;
+}
+
+.title {
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.tiny-text {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.normal-text {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.normal-bold-text {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.big-title {
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.audio-next-container {
+    display: flex;
+    justify-content: flex-start; /* Aligns items to the start of the line */
+    align-items: center; /* Aligns items on the cross-axis (the y-axis) */
+    gap: 10px; /* Add some space between the button and the audio */
+}
+
+.audio-control-container {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    width: 100%; /* Make the container take up the full width */
+    justify-content: center; /* Center items horizontally */
+}
+
+.qmedia {
+    margin: auto; /* Add automatic margins on all sides to center the audio player */
+}
+
+#nextBtn {
+    background-color: #2387FC;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+    display: block;
+    margin-top: 20px;
+}
+
+#nextBtn:hover {
+    background-color: #16b55c;
+}
+
+#submitBtn {
+    background-color: #19E069;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+    display: block;
+    margin: 0 auto;
+}
+
+#submitBtn:hover {
+    background-color: #16b55c;
+}
