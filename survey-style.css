@@ -5,6 +5,10 @@ body {
     padding: 0;
 }
 
+.centered-text{
+text-align:center;
+}
+
 @media screen (min-width: 770px) {
     .Skin #SkinContent {
         width: 80% !important;
